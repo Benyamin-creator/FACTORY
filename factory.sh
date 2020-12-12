@@ -137,12 +137,11 @@ if [ $SIGN -eq '1' ]; then
 
  elif [ $SIGN -eq '9' ]; then
         echo ""
-        printf "$v [Benyamin]$r Generando Viruz app$v \n"
+        printf "$v [Benyamin]$r AYUDA $v \n"
         echo ""
         echo ""
         cd $PREFIX/bin/VIRUS
         sleep 3
-        cp $PREFIX/bin/VIRUS/HELP.txt
         nano /VIRUS/HELP.txt
         echo ""
         printf "$r \n \t Listoo Ahora esta en tu memoria interna uwu!!"
